@@ -20,6 +20,7 @@ c.aliases = {
          'f': 'fullscreen',
          'h': 'history',
          'hc': 'history-clear',
+         'p': 'open --private',
          }
 
 ## Time interval (in milliseconds) between auto-saves of
@@ -1501,7 +1502,7 @@ config.bind('ad', 'download-cancel')
 config.bind('b', 'set-cmd-text -s :quickmark-load')
 config.bind('cd', 'download-clear')
 config.bind('co', 'tab-only')
-config.bind('d', 'scroll-page 0 0.5')
+config.bind('d', 'scroll-page 0 0.3')
 #config.bind('d', 'tab-close')
 config.bind('f', 'hint')
 config.bind('g$', 'tab-focus -1')
@@ -1541,7 +1542,7 @@ config.bind('ss', 'set-cmd-text -s :set')
 config.bind('th', 'back -t')
 config.bind('tl', 'forward -t')
 #config.bind('u', 'undo')
-config.bind('u', 'scroll-page 0 -0.5')
+config.bind('u', 'scroll-page 0 -0.3')
 #config.bind('U', 'undo')
 config.bind('v', 'enter-mode caret')
 config.bind('wB', 'set-cmd-text -s :bookmark-load -w')
