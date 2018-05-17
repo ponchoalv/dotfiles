@@ -82,7 +82,7 @@ exec --no-startup-id xfce4-power-manager
 exec --no-startup-id redshift
 exec_always compton -b -f
 #exec --no-startup-id wal -R
-exec --no-startup-id i3-msg 'workspace ; exec qutebrowser'
+#exec --no-startup-id i3-msg 'workspace ; exec qutebrowser'
 #exec --no-startup-id i3-msg 'workspace ; exec irxvt'
 #exec --no-startup-id i3-msg 'workspace ; exec thunar'
 #exec --no-startup-id i3-msg 'workspace ; exec urxvt -e ranger'
@@ -111,7 +111,7 @@ for_window [title="File Transfer*"] floating enable
 #for_window [class="Lightdm-settings"] floating enable 
 for_window [class="Lxappearance"] floating enable border pixel 4
 for_window [class="mpv"] border pixel 4 
-for_window [class="Transmission-gtk"] floating enable 
+for_window [class="Transmission-gtk"] floating enable pixel 4 
 for_window [class="Bleachbit"] floating enable border pixel 4
 for_window [class="Nm-connection-editor"] floating enable
 for_window [class="URxvt"] border pixel 4 resize set 900 550 
@@ -120,7 +120,9 @@ for_window [class="Thunar"] floating enable border pixel 4
 for_window [class="Pavucontrol"] floating enable border pixel 4
 for_window [class="VirtualBox Manager"] floating enable border pixel 4
 for_window [class="qt5ct"] floating enable border pixel 4
-for_window [class="qutebrowser"] border pixel 4 
+for_window [class="qutebrowser"] border pixel 4
+for_window [class="Sxiv"] floating enable border pixel 4
+
 #for_window [class="Popcorn-Time"] floating enable border pixel 4
 
 # force all windows to floating mode
